@@ -2,12 +2,12 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f4f4f4;
+    background-color: #f3e6ff; /* Light purple background */
     color: #333;
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: #6a0dad; /* Deep purple */
     color: white;
     padding: 1rem;
     text-align: center;
@@ -28,15 +28,19 @@ section {
 }
 
 h2 {
-    color: #4CAF50;
+    color: #6a0dad; /* Deep purple */
 }
 
 footer {
-    background-color: #333;
+    background-color: #4b0082; /* Darker purple */
     color: white;
     text-align: center;
     padding: 1rem;
     position: fixed;
     width: 100%;
     bottom: 0;
+}
+
+nav a:hover {
+    text-decoration: underline;
 }
