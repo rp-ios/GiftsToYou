@@ -16,6 +16,7 @@ header {
 }
 
 nav ul {
+    background-color: black;
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -27,7 +28,6 @@ nav ul li {
 }
 
 nav ul li a {
-    background-color: black;
     color: white;
     text-decoration: none;
     font-weight: bold;
