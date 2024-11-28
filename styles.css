@@ -7,14 +7,14 @@ body {
 }
 
 header {
-    background-color: #6a0dad; /* Deep purple */
+    background-color: white; 
     color: white;
     padding: 1rem;
     text-align: center;
 }
 
 header {
-    background-color: #4CAF50; /* Or your preferred color */
+    background-color: white;
     color: white;
     display: flex;
     justify-content: space-between; /* Space between logo and nav */
