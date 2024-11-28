@@ -3,42 +3,63 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Winner Picker</title>
+    <title>Your IT Company</title>
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <header>
-        <h1>Welcome to Winner Picker!</h1>
+        <div class="logo">
+            <h1>YourCompany</h1>
+        </div>
         <nav>
-            <a href="#about">About</a>
-            <a href="#services">Services</a>
-            <a href="#contact">Contact</a>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact Us</a></li>
+            </ul>
         </nav>
     </header>
     
     <main>
+        <section class="hero">
+            <h2>Welcome to YourCompany</h2>
+            <p>We provide innovative IT solutions to drive your business forward.</p>
+        </section>
+
         <section id="about">
             <h2>About Us</h2>
-            <p>This is a basic static website created with HTML and CSS.</p>
+            <p>We are a leading IT services provider with a focus on delivering top-quality solutions for businesses of all sizes.</p>
         </section>
-        
+
         <section id="services">
             <h2>Our Services</h2>
             <ul>
-                <li>Web Development</li>
-                <li>Design</li>
-                <li>Consulting</li>
+                <li>Custom Software Development</li>
+                <li>Cloud Solutions</li>
+                <li>Cybersecurity</li>
+                <li>IT Consulting</li>
             </ul>
         </section>
-        
+
         <section id="contact">
-            <h2>Contact</h2>
-            <p>Email: developmentios1@gmail.com</p>
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" rows="5" required></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
         </section>
     </main>
-
+    
     <footer>
-        <p>&copy; 2024 My Simple Website</p>
+        <p>&copy; 2024 YourCompany. All rights reserved.</p>
     </footer>
 </body>
 </html>
